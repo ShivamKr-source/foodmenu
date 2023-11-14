@@ -1,0 +1,66 @@
+#menu{
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.menuTitle{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.categories{
+    font-size: 4rem;
+    font-weight: 400;
+    max-width: 50rem;
+    padding: 0 2rem;
+}
+
+.categoriesLists{
+    display: flex;
+    margin: 1rem;
+    padding :2.2rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background: rgb(50, 50, 50);
+}
+
+.categoriesList{
+    margin: 3rem;
+    padding: 7rem;
+}
+
+.CL{
+    display: flex;
+    color: white;
+    padding: 2rem;
+    transition: 1s;
+}
+
+.ListGroups{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    max-height: 100%;
+    justify-content: space-around;
+}
+
+/* .ListGroups1{
+    display: flex;
+    padding-left: 2px;
+} */
+
+.CL:hover{
+    cursor:pointer;
+    /* background-color: beige; */
+    color: yellow;
+    transform: scale(1.4);
+}

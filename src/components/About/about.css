@@ -18,7 +18,7 @@
 }
 
 .skillsDesc{
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 400;
     max-width: 50rem;
     padding: 0 2rem;
@@ -29,8 +29,11 @@
     width: 100vw;
     max-width: 80%;
     text-align: left;
-
 }
+
+/* .skillsBars:hover{
+    transform: scale(1.2);
+} */
 
 .skillBar {
     display: flex;
@@ -38,6 +41,14 @@
     padding: 1.5rem 2rem;
     border-radius: 0.5rem;
     background: rgb(50, 50 , 50);
+    transition: 1s;
+}
+
+.skillBar:hover{
+    transition: 1s;
+    color: rgb(50, 49, 49);
+    background-color: rgb(216, 216, 183);
+    transform: scale(1.09);
 }
 
 .skillBarImg {
@@ -53,6 +64,7 @@
     font-weight: 200;
 
 }
+
 
 @media screen and (max-width:720px){
     .skillBarText>p{
